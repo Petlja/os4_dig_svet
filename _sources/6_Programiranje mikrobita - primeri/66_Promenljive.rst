@@ -23,6 +23,12 @@
 
 Састави програм којим ће у зависности од температуре у околини микробита на екрану бити исписано „toplo“ или „hladno“.
 
+.. Komentar: proveriti ovaj zadatak, "hladno" bi trebalo staviti u netačnoj grani IF funkcije. Ovde nema te grane.
+
+.. Po ovom kada je temp veća od 25 ispisaće toplo i odmah posle toga hladno, pa opet toplo... iako se temperatura ne menja i veća je od 25
+
+.. Da je "hladno" u netačnoj grani IFa to se ne bi desilo, uvek bi bilo toplo. Msm da bi i učenicima bilo jasnije ako postoji Tačna i Netačna grana
+
 Поређај блокове као на слици испод:
 
 .. image:: ../../_images/mb18.png
